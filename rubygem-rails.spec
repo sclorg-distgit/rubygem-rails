@@ -8,8 +8,8 @@
 Summary: Web-application framework
 Name: %{?scl_prefix}rubygem-%{gem_name}
 Epoch: 1
-Version: 4.2.5
-Release: 2%{?dist}
+Version: 4.2.5.1
+Release: 1%{?dist}
 Group: Development/Languages
 License: MIT
 URL: http://www.rubyonrails.org
@@ -71,6 +71,9 @@ cp -a ./%{gem_dir}/* %{buildroot}%{gem_dir}/
 %doc %{gem_instdir}/guides
 
 %changelog
+* Mon Feb 08 2016 Dominic Cleal <dcleal@redhat.com> 4.2.5.1-1
+- Update Rails to 4.2.5.1
+
 * Fri Jan 22 2016 Dominic Cleal <dcleal@redhat.com> 4.2.5-2
 - Rebuild for sclo-ror42 SCL
 
